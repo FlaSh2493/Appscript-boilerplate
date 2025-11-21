@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "None",
+    "lib": ["ES2020"],
+    "outDir": "dist",
+    "rootDir": "server",
+    "strict": true,
+    "sourceMap": false,
+    "isolatedModules": false,
+    "types": ["google-apps-script"]
+  },
+  "include": ["server/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
+}

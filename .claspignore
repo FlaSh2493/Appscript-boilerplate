@@ -1,0 +1,37 @@
+# Clasp ignore file
+# Only deploy files from dist directory
+
+# Source files
+src/**
+server/**
+public/**
+
+# Config files
+*.config.*
+tsconfig*.json
+package*.json
+pnpm-lock.yaml
+
+# Development files
+node_modules/**
+.git/**
+.github/**
+.vscode/**
+*.md
+*.log
+
+# Build artifacts (except dist contents)
+stats.html
+coverage/**
+
+# Environment files
+.env*
+
+# IDE files
+.idea/**
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
