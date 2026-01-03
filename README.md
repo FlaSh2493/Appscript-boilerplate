@@ -8,6 +8,7 @@ Google Apps Script 템플릿 입니다.
 
 - 반드시 .gitignore 에 포함하세요.
 - .clasp.dev.json, .clasp.prod.json
+- mockServiceWorker.js는 .claspignore 에 포함됩니다 (복사되면 GAS 런타임에 오류납니다)
 
 ### 1. 하이브리드 아키텍처
 
